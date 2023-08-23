@@ -28,13 +28,13 @@ body {
 
 .u-head-secondary {
     font-family: 'Jost', sans-serif;
-    font-size: 4vw;
+    font-size: 1.5rem;
 
 }
 
 .strong {
     display: inline;
-    font-size: 2 rem;
+    font-size: 2rem;
 
 }
 /* utilities */
@@ -102,8 +102,12 @@ body {
 
 #bubbles {
     background-color: #d5dfe7;
-    padding: 0 0 25px;
-    margin-top: 5px;
+    padding: 0;
+    margin-top: 12px;
+}
+
+.bubbles2 {
+    margin-top: 35px;
 }
 
 .split-bubbles {
@@ -147,19 +151,33 @@ body {
     height: auto;
 }
 
+@media screen and (max-width: 770px) {
+.bubbles2 {
+    margin-top: 15px;
+}
+
+}
+
+
+
 .video-bubble {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    flex-basis: 90%
+    flex-basis: 90%;
+    background-color: #879ab5;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 .video-frame {
     width: 100%;
     height: 560px;
+    border-radius: 10px;
+    padding-top: 2px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
     .video-frame {
         height: 230px;
    }
