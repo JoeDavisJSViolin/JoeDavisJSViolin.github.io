@@ -1,0 +1,154 @@
+/*CSS Boilerplate */
+
+body {
+    margin: 0;
+    background-color: #d5dfe7
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+/* font assets */
+.u-font-main {
+
+    font-family: "Spectral";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.3vw;
+}
+
+.u-head-main {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+}
+
+.u-head-secondary {
+    font-family: 'Jost', sans-serif;
+    font-size: 4vw;
+
+}
+
+/* utilities */
+
+.gap-flush {
+    margin-top: 5px;
+}
+
+.indent {
+    margin-left: 5px;
+}
+
+.text-flush {
+    margin-top: 5px;
+}
+
+/* Header Styles */
+
+.header-container {
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+
+.global-header-container {
+    width: 100%;
+    height: 7%;
+    background-color: transparent;
+    display: block;
+    position: fixed;
+}
+
+#logo {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 5px;
+
+}
+
+#circle-button {
+    border-radius: 25px;
+}
+
+
+
+/* Hero */
+
+#myHero {
+    width: 100%;
+    height: auto;
+}
+
+/* Bubble Containers */
+.header-div {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+
+}
+
+#bubbles {
+    background-color: #d5dfe7;
+    padding: 0 0 25px;
+    margin-top: 5px;
+}
+
+.split-bubbles {
+    background-color: #d5dfe7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+}
+.bubble {
+    border-radius: 25px;
+    align-items: flex-start;
+    max-width: 48%;
+    background-color: #879ab5;
+    margin: 0 20px;
+    padding: 15px;
+    width: fit-content;
+
+}
+
+@media screen and (max-width: 770px) {
+   .split-bubbles {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 15px;
+   } 
+}
+
+.bubble-img {
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bubble-img-id {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+/* Style Assets */
+.alice-line-break {
+    height: 25px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    width: 100%;
+
+}
+
+.text-bubble {
+    display: block;
+    float: left;
+
+
+}

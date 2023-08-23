@@ -1,0 +1,21 @@
+Hero Image and Transparent Nav Bar:
+    Add 4-6 Elements in the nav bar that blend seamlessly
+    with the image. Make them collapse into a hamburger
+    menu. These won't link to other pages, rather point to sections on the website.
+
+Hero Image Slider:
+    Code the JS for an Image carousel with buttons. Make a div container that is called "container" and set all of the pictures equal to that. reference: https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/
+
+Photo Gallery:
+    Make a flexbox photo gallery that flips to show the caption. JS ansv CSS
+    https://codepen.io/mondal10/pen/WNNEvjV
+
+
+
+
+*** Find some way to publish it, so that I can share with others ****
+
+
+
+
+
