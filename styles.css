@@ -47,6 +47,10 @@ body {
     margin-left: 5px;
 }
 
+.super-indent {
+    margin-left: 10px;
+}
+
 .text-flush {
     margin-top: 5px;
 }
@@ -55,12 +59,13 @@ body {
     display: flex;
 }
 
+
+
 /* Header Styles */
 
 .header-container {
     width: 100%;
     height: auto;
-    background-color: aliceblue;
 }
 
 
@@ -92,6 +97,10 @@ body {
     height: auto;
 }
 
+.hero2 {
+    padding: 45px;
+}
+
 /* Bubble Containers */
 .header-div {
     text-align: center;
@@ -103,7 +112,7 @@ body {
 #bubbles {
     background-color: #d5dfe7;
     padding: 0;
-    margin-top: 12px;
+    margin: 10px 0;
 }
 
 .bubbles2 {
@@ -151,6 +160,19 @@ body {
     height: auto;
 }
 
+#cuteness-overload {
+    border-radius: 10px;
+}
+
+.caption {
+    background-color: #d5dfe7;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 770px) {
 .bubbles2 {
     margin-top: 15px;
@@ -158,6 +180,9 @@ body {
 
 }
 
+.video-bg {
+    margin: 10px 5px;
+}
 
 
 .video-bubble {
@@ -182,6 +207,8 @@ body {
         height: 230px;
    }
 }
+
+
 /* Style Assets */
 .alice-line-break {
     height: 25px;
