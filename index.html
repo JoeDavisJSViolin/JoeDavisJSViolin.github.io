@@ -131,22 +131,9 @@
     
         <section class="video-bg flex video-container">
             <div class="video-bubble">
-                <iframe id="video-frame" width="100%" height="" src="https://www.youtube.com/embed/mKCWHUudnmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video-frame" width="100%" height="" src="https://www.youtube.com/embed/mKCWHUudnmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
-        <script>
-            window.onscroll = function() {
-                var dv = document.getElementById('video-bubble');
-                var v = document.getElementById('video-frame');
-                if ((window.scrollY < (dv.offsetTop + dv.offsetHeight)) && ((window.scrollY + window.outerHeight) > dv.offsetTop)) {
-                    if (v.src=='' || v.src==location.href) {
-                        v.src='https://www.youtube.com/embed/mKCWHUudnmY';
-                    }
-                } else {
-                    v.src='';
-                }
-            }
-        </script>
 
     <section class="header-container">
         <div class="header-div page-end">
