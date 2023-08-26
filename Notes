@@ -10,6 +10,22 @@ Photo Gallery:
     Make a flexbox photo gallery that flips to show the caption. JS ansv CSS
     https://codepen.io/mondal10/pen/WNNEvjV
 
+Collapsible mobile images:
+    Make all of the images under one flexbox (the section)
+    Create a div ID with a header button telling the user to click to show more images. Give the buttons below an ID and a class of hidden, that has CSS of display: hidden;
+    Create a JavaScript code that replaces the values of the display: hidden on click, and makes the menu visible. Then, it applies the display hidden code to the main header, and codes a new footer at the bottom telling the user to click to close.
+    
+
+JS code snippets to save:
+
+/* align viewport position with a particular div container onclick, will scroll from bottom up: */
+
+document.getElementById('buttonID').addEventListener('click', function() {
+    var element = document.getElementById('divToAlign');
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+});
+
+
 
 
 

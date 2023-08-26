@@ -24,8 +24,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&display=swap" rel="stylesheet">
 
-    <!--JQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
 </head>
 
 
@@ -45,7 +44,7 @@
     <section class="hero">
         <div id="myHero" class="my-hero-banner u-head-main">
             <div class="my-hero-overlay">
-            <img src="https://scontent.fosu2-1.fna.fbcdn.net/v/t39.30808-6/313895356_4133923643499745_7607793582262098726_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=gUN5LTQUx9oAX9Nt-HH&_nc_ht=scontent.fosu2-1.fna&oh=00_AfCwYiPPjmiZs1JNHPiaXbSS1kV_-ZekLvp59SnRE0OKfQ&oe=64E84281" width="100%" height="auto">
+            <img src="joe-and-jared.jpeg" width="100%" height="auto">
             </div>
             </div>
         </section>
@@ -90,7 +89,13 @@
                 </div>
             </div>
         </div>
-            <div class="bubbles2">
+            <div id="expand-header">
+            <button id="drop-down" onclick="photoExpand()">
+                <h2 class="u-head-secondary">Expand to see more photos</h2>
+                    </button>
+            </div>
+            
+            <div id="bubbles2">
             <div class="split-bubbles">
             <div class="bubble">
                 <div class="bubble-img">
@@ -120,10 +125,16 @@
         </div>
     </div>
         </section>
+
+        <div id="expand-header-two">
+            <button id="collapse" onclick="collapseFunc()">
+                <h2 class="u-head-secondary">Click here to collapse</h2>
+            </button>
+        </div>
     <!--Our Song-->
         
     <!--Our Engagement Announcement, When is the Wedding?-->
-    <section class="header-container">
+    <section id="header-container-two">
         <div class="header-div u-bg-pale">
         <h1 class="u-head-main">OUR SONG....</h1>
         <p class="u-font-main">that follows us wherever we go</p>
@@ -147,6 +158,8 @@
     </section>
     </main>
 
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
